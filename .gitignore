@@ -1,6 +1,16 @@
-*.class
+# Project Files #
+#################
+/logs
+/config/config.conf
+*.log
 
-# Package Files #
+# Java #
+########
+*.class
 *.jar
 *.war
 *.ear
+
+# Editors #
+###########
+*~

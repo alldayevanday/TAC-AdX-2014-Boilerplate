@@ -1,4 +1,4 @@
-package tau.tac.adx.agents;
+package edu.umich.tacadx.agents;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -543,7 +543,7 @@ public class SampleAdNetwork extends Agent {
 			reachImps = icm.getReachImps();
 			dayStart = icm.getDayStart();
 			dayEnd = icm.getDayEnd();
-			targetSegment = icm.getTargetSegment();
+			targetSegment = icm.getTargetSegment().iterator().next(); // FIXME hack from interface mismatch
 			videoCoef = icm.getVideoCoef();
 			mobileCoef = icm.getMobileCoef();
 			id = icm.getId();
@@ -561,7 +561,7 @@ public class SampleAdNetwork extends Agent {
 			dayEnd = com.getDayEnd();
 			id = com.getId();
 			reachImps = com.getReachImps();
-			targetSegment = com.getTargetSegment();
+			targetSegment = com.getTargetSegment().iterator().next(); // FIXME hack from interface mismatch
 			mobileCoef = com.getMobileCoef();
 			videoCoef = com.getVideoCoef();
 			stats = new CampaignStats(0, 0, 0);
