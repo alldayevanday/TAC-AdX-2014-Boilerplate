@@ -5,7 +5,7 @@
 if [[ "$1" == "-h" || "$1" == "--help" ]]; then
     echo "usage: $0 [-h] [agent-class-name]"
     echo 
-    echo "Runs simulation..." | fold -s
+    echo "Runs agent code for specified agent class. The agent will attempt to connect to a server on the localhost and if found will try to participate in the game will the default settings found in config/template.conf." | fold -s
     echo
     echo "positional arguments:"
     echo "  agent-class-name      The name of the agent class to run"

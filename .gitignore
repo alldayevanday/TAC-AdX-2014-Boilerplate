@@ -14,3 +14,8 @@
 # Editors #
 ###########
 *~
+
+# Eclipse #
+###########
+/.classpath
+/.project
