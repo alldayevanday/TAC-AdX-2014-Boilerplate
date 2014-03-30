@@ -17,6 +17,8 @@
     <!-- Clean build directory -->
     <delete dir="${build}"/>
     <mkdir dir="${build}"/>
+    <!-- Create lib if it doesn't exist -->
+    <mkdir dir="${lib}"/>
     <!-- Compile the java code from ${src} into ${build} -->
     <javac srcdir="${src}" destdir="${build}"
 	   debug="on" deprecation="on" optimize="on" includeantruntime="false">
