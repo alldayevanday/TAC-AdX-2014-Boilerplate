@@ -16,15 +16,15 @@ repository after cloning this one, you simple need to do two steps:
 Building and running
 --------------------
 
-1. To compile every file in the [src](src) directory run ```ant
-```. This will create a jar of all of your files (agents) in to the jar locatted
-at [dist/tac-adx-agent.jar](dist/tac-adx-agent.jar).
-2. To run the server use ```./runServer.sh ``` (```shell $
-./runServer.sh & ``` to run the server in the background)..
-3. To run an agent agains this server run ```./runAgent.sh [agent java
-class name] ```. To run the sample agent you can run ```./runAgent.sh
-SampleAdNetwork ``` or ```./runAgent.sh ``` because the script defaults
-to running the sample agent.
+1. To compile every file in the [src](src) directory run ```ant ```. This will
+create a jar of all of your files (agents) in to the jar locatted at
+[dist/tac-adx-agent.jar](dist/tac-adx-agent.jar).
+2. To run the server use ```./runServer.sh ``` (```./runServer.sh & ``` to run
+the server in the background).
+3. To run an agent agains this server run ```./runAgent.sh [agent java class
+name] ```. To run the sample agent you can run ```./runAgent.sh SampleAdNetwork
+``` or ```./runAgent.sh ``` because the script defaults to running the sample
+agent.
 
 Creating your own agent
 -----------------------
